@@ -1,22 +1,23 @@
 import React from 'react'
 import Link from 'next/link'
+import Home from '@/public/assets/home.svg'
 
 const Navbar =  () => { 
   return (
     <nav className='sticky top-0 z-10'>
-        <div className='mx-auto max-w-screen-xl py-2 text-white'>
-            <div className='bg-black px-6 py-4 rounded-xl shadow-md'>
+        <div className='mx-auto max-w-screen-xl py-2 text-md text-yellow-bg font-dm font-normal tracking-tight'>
+            <div className='bg-blue-dark px-6 py-4 rounded-xl shadow-md'>
                 <div className='flex justify-between'>
                     <div className='flex justify-left'>
-                        <Link href='/'><img className='w-3/4' alt='Home' src='/assets/joelle.svg'></img></Link>
+                        <Link href='/'><Home className='transform scale-75 hover:fill-blue-default' fill='#FFFBEE' src='/assets/joelle.svg' /></Link>
                     </div>
-                    <div className='flex justify-items-center space-x-5'>
-                        <Link className='hover:underline' href='/projects'>Projects</Link>
-                        <Link className='hover:underline' href='/profile'>Profile</Link>
-                        <a className='hover:underline' href='https://drive.google.com/file/d/1RvUcIJqw17sApz7PrGrt0rjkVfGYUVxJ/view?usp=sharing' target='_blank'>Resume</a>
+                    <div className='flex justify-center space-x-5'>
+                        <Link className='hover:text-blue-default' href='/projects'>Projects</Link>
+                        <Link className='hover:text-blue-default' href='/profile'>Profile</Link>
+                        <a className='hover:text-blue-default' href='https://drive.google.com/file/d/1RvUcIJqw17sApz7PrGrt0rjkVfGYUVxJ/view?usp=sharing' target='_blank'>Resume</a>
                     </div>
                     <div className='flex justify-end'>
-                        <a className='hover:underline' href='mailto:joellelintag@gmail.com'>Contact</a>
+                        <a className='hover:text-blue-default' href='https://www.linkedin.com/in/joelle-lintag/' target='_blank' rel='noopener noreferrer'>Contact</a>
                     </div>
                 </div>
             </div>

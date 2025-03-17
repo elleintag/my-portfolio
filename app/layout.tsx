@@ -1,7 +1,7 @@
 import React from "react"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
-import "@/app/globals.css"
+import '@/app/globals.css'
 
 export const metadata = {
   title: 'Next.js',

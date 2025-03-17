@@ -8,10 +8,29 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        blue: {
+          light: '#E7EEFF',
+          default: '#8AA8EF',
+          dark: '#333894',
+          text: '#3B3F7C'
+        },
+        yellow: {
+          default: '#F8E79D',
+          bg: '#FFFBEE',
+          light: '#FFF8DE',
+          dark: '#564731'
+        },
+        green: '#8FAF54'
+      },
+      fontFamily: {
+        'dg': ['Darker Grotesque', 'sans-serif'],
+        'ct': ['Crimson Text', 'serif'],
+        'dm': ['DM Sans', 'sans-serif'],
+        'ss': ['Source Serif']
+      },
+      fontWeight: {
+        'lighter': '200',
       },
       spacing: {
         '72': '18rem',
@@ -39,10 +58,7 @@ const config: Config = {
         '40': '0.4',
         '43': '0.43',
         '45': '0.45',
-        '120': '1.2',
-        '150': '1.5',
-        '175': '1.75',
-        '200': '2'
+        '60': '0.6',
        }
     },
   },
