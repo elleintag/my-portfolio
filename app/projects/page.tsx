@@ -11,7 +11,9 @@ const projects = () => {
                     Selected Projects
                 </p>
                 <p className="text-2xl px-72 pb-10 text-blue-default font-dm italic tracking-tight">
-                From design to research and everything in between, all of my projects use a variety of skills to achieve every goal and deliver thoughtful solutions
+                    From design to research and everything in between, all of my
+                    projects use a variety of skills to achieve every goal and
+                    deliver thoughtful solutions
                 </p>
                 <Image
                     alt="Clover1"
