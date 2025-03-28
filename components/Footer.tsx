@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
     return (
-        <div className="mx-auto max-w-screen-xl bg-blue-dark rounded-xl px-20 py-8">
+        <div className="mx-auto max-w-[1400px] bg-blue-dark rounded-xl px-20 py-8">
             <div className="text-yellow-light font-dm font-regular tracking-tight space-y-20">
                 <div className="text-center text-xl space-x-20">
                     <a
@@ -28,13 +28,12 @@ const Footer = () => {
                         Resume
                     </a>
                 </div>
-                <div className="text-left text-5xl font-medium max-w-md">
-                    <p className="py-4">Connect with me!</p>
+                <div className="text-left text-5xl font-medium">
+                    <p className="tracking-tighter pb-5">Connect with me!</p>
                     <a
-                        className="bg-blue-dark border-solid border-2 border-yellow-light text-yellow-light hover:bg-yellow-light hover:text-blue-dark text-2xl rounded-2xl px-12 py-2"
+                        className="bg-blue-dark border-solid border-2 border-yellow-light text-yellow-light hover:bg-yellow-light hover:text-blue-dark font-normal text-2xl rounded-2xl px-12 py-2"
                         href="https://www.linkedin.com/in/joelle-lintag/"
                         target="_blank"
-                        rel="noopener noreferrer"
                     >
                         Chat
                     </a>

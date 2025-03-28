@@ -8,7 +8,7 @@ const Photos = ({img_1='/assets/', img_2='/assets/', img_3='/assets/', Caption='
           <img src={img_2}></img>
           <img src={img_3}></img>
         </div>
-        <p className='text-2xl text-blue-text font-ct italic tracking-tight'>{Caption}</p>
+        <p className='text-xl text-blue-text font-dm italic tracking-tighter'>{Caption}</p>
     </div>
   )
 }

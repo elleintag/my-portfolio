@@ -69,13 +69,7 @@ const ProjectIcon = ({
                             {label_2}
                         </p>
                     )}
-                    {/* {label_3 && (
-                        <p
-                            className={`text-sm font-dm font-nromal tracking-tighter border-solid ${bglabel} ${textlabel} rounded-xl px-4 py-1`}
-                        >
-                            {label_3}
-                        </p>
-                    )} */}
+
                 </div>
             </div>
         </Link>

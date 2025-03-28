@@ -13,3 +13,8 @@
 body {
   background: #FFFBEE;
 }
+
+.bg-clip-background {
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari compatibility */
+}

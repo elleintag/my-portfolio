@@ -8,7 +8,7 @@ import React from 'react'
 
 const bobbinlace = () => {
   return (
-    <div className='pt-64'>
+    <div className='mx-auto max-w-[1400px]'>
       <Header
         Title='Interactive Bobbin Lace'
         Description='Undergraduate Capstone Research Project'
@@ -42,13 +42,13 @@ const bobbinlace = () => {
 
       <div className='p-24 bg-yellow-light flex justify-evenly items-center'>
         <div className='w-2/3 px-16 space-y-3'>
-          <p className='text-6xl text-blue-dark font-dg font-semibold tracking-tight'>Approach</p>
-          <p className='text-xl text-blue-text font-ct tracking-tight'>Within our research, we found that e-textiles were regularly seen as touch sensors, where a user’s swipe or scrunch of a fabric would turn on a light. Using this as a basis, we each developed a sensor that would best suit the foundational bobbin lace methods we had researched and sampled together. These sensors, which included a potentiometer, stretch sensor, and swipe sensor, were all connected and controlled together in a single children’s tapestry for simple user interaction.</p>
-          <p className='text-2xl text-blue-default font-dg font-medium tracking-tight leading-tight py-5'>This final sensor was presented as a submission at the Queen’s University Creative Computing Showcase and was recognized with the award for Best Research Project!</p>
+          <p className='text-6xl text-blue-dark font-dm font-semibold tracking-tight'>Approach</p>
+          <p className='text-kg text-blue-text font-dm tracking-tight'>Within our research, we found that e-textiles were regularly seen as touch sensors, where a user’s swipe or scrunch of a fabric would turn on a light. Using this as a basis, we each developed a sensor that would best suit the foundational bobbin lace methods we had researched and sampled together. These sensors, which included a potentiometer, stretch sensor, and swipe sensor, were all connected and controlled together in a single children’s tapestry for simple user interaction.</p>
+          <p className='text-xl text-blue-default font-dm font-medium tracking-tight leading-tight py-5'>This final sensor was presented as a submission at the Queen’s University Creative Computing Showcase and was recognized with the award for Best Research Project!</p>
         </div>
         <div className=''>
           <img className='w-10/12 h-10/12' src='/assets/bobbinlace/award.png'></img>
-          <p className='text-xl text-blue-text font-ct italic tracking-tight py-3'>Awarding for Interactive Bobbin Lace at the Queen’s University Creative Computing Showcase</p>
+          <p className='text-lg text-blue-text font-dm italic tracking-tight py-3'>Awarding for Interactive Bobbin Lace at the Queen’s University Creative Computing Showcase</p>
         </div>
       </div>
 
@@ -61,17 +61,17 @@ const bobbinlace = () => {
       </div>
 
       <div className='pt-24 pb-36 px-72 space-y-5'>
-        <p className='text-5xl text-center text-blue-dark font-dg font-semibold'>Learn More!</p>
-        <p className='text-2xl text-center text-blue-dark font-ct tracking-tight'>The research we contributed for Interactive Bobbin Lace has been internationally recognized at TEI’25 in Bordeaux, France, and has been scientifically published as: Interactive Bobbin Lace: Metal Thread History, Interviews with Lace Makers, and Material Explorations with E-Textiles! Learn more about our research and its contributions through any of the links provided.</p>
+        <p className='text-4xl text-center text-blue-dark font-dm font-semibold'>Learn More!</p>
+        <p className='text-xl text-center text-blue-dark font-dm tracking-tight'>The research we contributed for Interactive Bobbin Lace has been internationally recognized at TEI’25 in Bordeaux, France, and has been scientifically published as: Interactive Bobbin Lace: Metal Thread History, Interviews with Lace Makers, and Material Explorations with E-Textiles! Learn more about our research and its contributions through any of the links provided.</p>
         <div className='space-x-5 flex justify-center'>
-          <Link className='bg-blue-default text-2xl text-yellow-bg font-dg font-medium tracking-tight rounded-2xl px-8 py-1.5' href='https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjn1fCVhpCMAxXijokEHV39IDUQPAgI'>Poster</Link>
-          <Link className='bg-blue-default text-2xl text-yellow-bg font-dg font-medium tracking-tight rounded-2xl px-10 py-1.5' href='https://labs.cs.queensu.ca/istudio/wp-content/uploads/sites/12/2025/02/Interactive-Bobbin-Lace.pdf'>PDF</Link>
-          <Link className='bg-blue-default text-2xl text-yellow-bg font-dg font-medium tracking-tight rounded-2xl px-8 py-1.5' href='https://labs.cs.queensu.ca/istudio/'>iStudio</Link>
+          <Link className='bg-blue-default text-xl text-yellow-bg font-dm font-normal tracking-tight rounded-2xl px-8 py-1.5' href='https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjn1fCVhpCMAxXijokEHV39IDUQPAgI'>Poster</Link>
+          <Link className='bg-blue-default text-xl text-yellow-bg font-dm font-normal tracking-tight rounded-2xl px-10 py-1.5' href='https://labs.cs.queensu.ca/istudio/wp-content/uploads/sites/12/2025/02/Interactive-Bobbin-Lace.pdf'>PDF</Link>
+          <Link className='bg-blue-default text-xl text-yellow-bg font-dm font-normal tracking-tight rounded-2xl px-8 py-1.5' href='https://labs.cs.queensu.ca/istudio/'>iStudio</Link>
         </div>
       </div>
 
-      <div className='bg-blue-100 py-16 px-6 space-y-16'>
-        <p className='text-6xl text-center text-blue-dark font-dg font-semibold tracking-tight'>More From Me</p>
+      <div className='bg-[#E7EEFF] py-16 px-6 space-y-16'>
+        <p className='text-5xl text-center text-blue-dark font-dm font-semibold tracking-tighter'>More From Me</p>
         <div className='grid grid-cols-3 gap-5'>
               <ProjectIconSm 
                 title='Interactive Bobbin Lace'

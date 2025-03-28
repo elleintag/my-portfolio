@@ -6,8 +6,8 @@ import Image from "next/image";
 const home = () => {
     return (
         <main>
-            <div className="mx-auto max-w-screen-xl">
-                <div className="space-y-5 text-center pt-40 pb-24 relative">
+            <div className="mx-auto max-w-[1400px]">
+                <div className="space-y-5 text-center pt-56 pb-36 relative">
                     <p className="text-8xl text-blue-text text-center font-dm font-bold tracking-tighter z-10">
                         Hi! I'm Joelle!
                     </p>
@@ -23,43 +23,43 @@ const home = () => {
                     <Image
                         alt="Clover1"
                         src={"../assets/svgs/clover.svg"}
-                        height={550}
-                        width={550}
-                        className="absolute -top-24 -left-12 -z-10 rotate-[75deg]"
+                        height={600}
+                        width={600}
+                        className="absolute -top-56 -left-24 -z-10"
                         unoptimized
                     />
                     <Image
                         alt="Clover2"
                         src={"../assets/svgs/clover.svg"}
-                        height={580}
-                        width={580}
-                        className="absolute -top-80 right-12 -z-10 rotate-[30deg]"
+                        height={600}
+                        width={600}
+                        className="absolute -top-80 right-2 -z-10 rotate-[-125deg]"
                         unoptimized
                     />
                     <Image
                         alt="Yippee"
                         src={"../assets/svgs/yippee.svg"}
-                        height={300}
-                        width={300}
-                        className="absolute top-0 right-1/2 -z-10 rotate-[5deg]"
+                        height={200}
+                        width={200}
+                        className="absolute -top-24 left-120 -z-10"
                         unoptimized
                     />
-                    {/* <Image
+                    <Image
                         alt="Loops"
                         src={"../assets/svgs/loops.svg"}
-                        height={300}
-                        width={300}
-                        className="absolute top-80 right-1/2 -z-10 rotate-[130deg]"
+                        height={500}
+                        width={500}
+                        className="absolute top-48 -right-24 -z-10"
                         unoptimized
                     />
                     <Image
                         alt="Squiggle short"
                         src={"../assets/svgs/squiggle-short.svg"}
-                        height={300}
-                        width={300}
-                        className="absolute top-80 right-1/2 -z-10 rotate-[130deg]"
+                        height={450}
+                        width={450}
+                        className="absolute top-80 -left-20 -z-10"
                         unoptimized
-                    /> */}
+                    />
                 </div>
                 <Featured />
                 <TextSide
