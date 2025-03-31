@@ -3,30 +3,30 @@ import Goals from '@/components/project-page/Goals'
 import Header from '@/components/project-page/Header'
 import Introduction from '@/components/project-page/Introduction'
 import Photos from '@/components/project-page/Photos'
-import ProjectIconSm from '@/components/ProjectIconSm'
+import MoreFromMe from '@/components/MoreFromMe'
 import React from 'react'
 
 const wise = () => {
   return (
-    <div className='pt-64'>
+    <div className='mx-auto max-w-[1440px]'>
       <Header
-        // Title='Interactive Bobbin Lace'
-        // Description='Undergraduate Capstone Research Project'
-        // Label_1='Research'
-        // Label_2='Development'
-        // Collab="In collaboration with the iStudio Lab at Queen's University"/>
-      />
+        Title='Women in Science & Engineering'
+        Description='Branding & Design Initiative'
+        Label_1='Branding'
+        Label_2='Social Media'
+        Collab=" For Women in Science & Engineering - Queen's University Chapter"
+        />
         
       <Introduction
-        // Intro='Bobbin lace is a traditional lace textile that is created by a pattern of twisting and knotting of thread wound around several bobbins. Its development and creation can be seen within textiles and fashion throughout history, and is an intricate form of textile art practiced today. As such a delicate textile, the introduction of electronic components and user interaction within bobbin lace is unheard of. Interactive Bobbin Lace is the result of the foundational research towards this newfound development, and its potential impact within the electronic textile (e-textile) industry.'
+        Intro='Women in Science and Engineering (WiSE) was established at Queen’s University with a simple mission in mind: to promote and advocate the involvement of females in STEM fields. We strive to bring each other up, work together towards the same goals, and inspire the next generation of girls to do the same. With a professional and consistent design, the WiSE rebranding project brings a brand-new way to showcase our mission, and to extend our reach to even more women and girls, just like us.'
         // img='/assets/bobbinlace/bobbinlace-intro.png'
         // Caption='Samples of bobbin lace from early in research.'/>
         />
       
       <Goals 
-        // Goal_1='Produce a sample book showcasing all research, prototypes, and samples throughout the project.'
-        // Goal_2='Develop methods to implement existing e-textile components within the creation of bobbin lace.'
-        // Goal_3='Create a Living Lace Sample prototype that successfully incorporates both the research of traditional bobbin lace methods and existing e-textile components.'/>
+        Goal_1='Develop a simple and accessible brand kit that can be easily understood by any member of the team.'
+        Goal_2='Ensure that each piece of media, marketing, and merchandise is cohesive and united by the WiSE brand.'
+        Goal_3='Create a new logo that fits both the professional and modern focus of the team’s initiatives and events.'
       />
 
       <Photos 
@@ -45,7 +45,11 @@ const wise = () => {
         />
       </div>
 
-      <Approach />
+      <Approach 
+        Approach='One of the most foundational steps of this project is found in the research I had done to initially develop the vision of the brand. Much of this research was focused on various brands and other entities that were capturing the attention of female university students. From here, I had begun to d evelop various versions of assets and marketing layouts that could easily be mixed and matched based on the event or portfolio being promoted. After regular meetings with the executive team for feedback discussions and goal revision, the WiSE brand was established and is continuously taught to incoming teams year after year.'
+        // img='/assets/bobbinlace/bobbinlace-intro.png'
+        // Caption='Samples of bobbin lace from early in research.'/>
+      />
 
       <div className='py-24'>
         <Photos 
@@ -56,29 +60,17 @@ const wise = () => {
         />
       </div>
 
-      <div className='bg-blue-100 py-16 px-6 space-y-16'>
-        <p className='text-6xl text-center text-blue-dark font-dg font-semibold tracking-tight'>More From Me</p>
-        <div className='grid grid-cols-3 gap-5'>
-              <ProjectIconSm 
-                title='Interactive Bobbin Lace'
-                sub='Undergraduate Capstone Research Project'
-                page='/projects/bobbinlace'
-                bg='bg-green'
-                text='text-yellow-bg'/>
-              <ProjectIconSm
-                title='Literacy Lagoon'
-                sub='UX/UI App Design'
-                page='/projects/literacylagoon'
-                bg='bg-blue-default'
-                text='text-blue-dark'/>
-              <ProjectIconSm 
-                title='Women in Science & Engineering'
-                sub='Branding & Marketing'
-                page='/projects/wise'
-                bg='bg-yellow-default'
-                text='text-yellow-dark'/>
-          </div>
-      </div>
+      <MoreFromMe
+        project_1="Literacy Lagoon"
+        sub_1="UX/UI App Design"
+        page_1="/projects/literacylagoon"
+        project_2="Women in Science & Engineering"
+        sub_2="Branding & Design"
+        page_2="/projects/wise"
+        project_3="Mootate"
+        sub_3="2D Game Development"
+        page_3="/projects/mootate"
+      />
     </div>
   )
 }

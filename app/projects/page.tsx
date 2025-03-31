@@ -20,7 +20,7 @@ const projects = () => {
                     src={"../assets/svgs/clover.svg"}
                     height={600}
                     width={600}
-                    className="absolute -top-160 -left-12 -z-10 rotate-[56deg]"
+                    className="absolute -top-160 -left-24 -z-10 rotate-[56deg]"
                     unoptimized
                 />
                 <Image

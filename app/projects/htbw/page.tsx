@@ -3,30 +3,30 @@ import Goals from '@/components/project-page/Goals'
 import Header from '@/components/project-page/Header'
 import Introduction from '@/components/project-page/Introduction'
 import Photos from '@/components/project-page/Photos'
-import ProjectIconSm from '@/components/ProjectIconSm'
+import MoreFromMe from '@/components/MoreFromMe'
 import React from 'react'
 
 const htbw = () => {
   return (
-    <div className='pt-64'>
+    <div className='mx-auto max-w-[1440px]'>
       <Header
-        // Title='Interactive Bobbin Lace'
-        // Description='Undergraduate Capstone Research Project'
-        // Label_1='Research'
-        // Label_2='Development'
-        // Collab="In collaboration with the iStudio Lab at Queen's University"/>
+        Title='How to be WiSE Podcast'
+        Description='Branding & Design Project'
+        Label_1='Branding'
+        Label_2='Social Media'
+        Collab="For Women in Science & Engineering - Queen's University Chapter"
       />
         
       <Introduction
-        // Intro='Bobbin lace is a traditional lace textile that is created by a pattern of twisting and knotting of thread wound around several bobbins. Its development and creation can be seen within textiles and fashion throughout history, and is an intricate form of textile art practiced today. As such a delicate textile, the introduction of electronic components and user interaction within bobbin lace is unheard of. Interactive Bobbin Lace is the result of the foundational research towards this newfound development, and its potential impact within the electronic textile (e-textile) industry.'
+        Intro='The How to be WiSE (HTBW) podcast is a proud communications initiative of the Queen’s University Women in Science and Engineering Chapter (WiSE). From interviews with top executives and young professionals to undergraduate students like us, each HTBW episode highlights the diversity and extraordinary female experience in STEM. The rebranding of HTBW is another extension of WiSE’s aim to advocate for women and girls in STEM spaces, and ensure their thoughts and voices are heard.'
         // img='/assets/bobbinlace/bobbinlace-intro.png'
         // Caption='Samples of bobbin lace from early in research.'/>
         />
       
       <Goals 
-        // Goal_1='Produce a sample book showcasing all research, prototypes, and samples throughout the project.'
-        // Goal_2='Develop methods to implement existing e-textile components within the creation of bobbin lace.'
-        // Goal_3='Create a Living Lace Sample prototype that successfully incorporates both the research of traditional bobbin lace methods and existing e-textile components.'/>
+        Goal_1='Develop a simple and accessible brand kit that can be easily understood by any member of the team.'
+        Goal_2='Ensure that the HTBW brand is independent and unique, but cohesive and can be easily associated with the overall WiSE brand.'
+        Goal_3='ADD ANOTHER GOAL'
       />
 
       <Photos 
@@ -45,7 +45,11 @@ const htbw = () => {
         />
       </div>
 
-      <Approach />
+      <Approach 
+        Approach='My vision for this brand had been a journal style, as a way to document all the different female experiences in STEM. Many realistic entities such as cut out photos and photostrips, tape, and other miscellaneous objects can be found throughout the design. However, the main challenge behind this project was ensuring that even with a complex and flexible brand identity, the brand could still be accessible to any member of the team. To combat this, the brand kit included core design principles and how they can be used in various graphics, along with a detailed explanation of the brand in action.'
+        // img='/assets/bobbinlace/bobbinlace-intro.png'
+        // Caption='Samples of bobbin lace from early in research.'/>
+      />
 
       <div className='py-24'>
         <Photos 
@@ -56,29 +60,17 @@ const htbw = () => {
         />
       </div>
 
-      <div className='bg-blue-100 py-16 px-6 space-y-16'>
-        <p className='text-6xl text-center text-blue-dark font-dg font-semibold tracking-tight'>More From Me</p>
-        <div className='grid grid-cols-3 gap-5'>
-              <ProjectIconSm 
-                title='Interactive Bobbin Lace'
-                sub='Undergraduate Capstone Research Project'
-                page='/projects/bobbinlace'
-                bg='bg-green'
-                text='text-yellow-bg'/>
-              <ProjectIconSm
-                title='Literacy Lagoon'
-                sub='UX/UI App Design'
-                page='/projects/literacylagoon'
-                bg='bg-blue-default'
-                text='text-blue-dark'/>
-              <ProjectIconSm 
-                title='Women in Science & Engineering'
-                sub='Branding & Marketing'
-                page='/projects/wise'
-                bg='bg-yellow-default'
-                text='text-yellow-dark'/>
-          </div>
-      </div>
+      <MoreFromMe
+        project_1="Literacy Lagoon"
+        sub_1="UX/UI App Design"
+        page_1="/projects/literacylagoon"
+        project_2="Women in Science & Engineering"
+        sub_2="Branding & Design"
+        page_2="/projects/wise"
+        project_3="Mootate"
+        sub_3="2D Game Development"
+        page_3="/projects/mootate"
+      />
     </div>
   )
 }

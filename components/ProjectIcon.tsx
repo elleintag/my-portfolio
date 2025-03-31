@@ -27,7 +27,6 @@ const ProjectIcon = ({
     cover_image?: boolean;
 }) => {
     return (
-        // <Link className={`max-w-screen-xl rounded-2xl ${bg} ${text}` } href={page}>
         <Link
             className={`max-w-screen-xl rounded-2xl ${text} ${
                 cover_image && "bg-green"
@@ -39,15 +38,15 @@ const ProjectIcon = ({
                 <Image
                     src={img_path}
                     alt={title}
-                    width={500}
-                    height={500}
+                    width={600}
+                    height={600}
                     className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
                 />
             )}
             {!cover_image && (
                 <div className="w-full h-full opacity-50 bg-blue-default z-20 absolute" />
             )}
-            <div className="mt-80 p-6 z-20 relative">
+            <div className="mt-90 p-6 z-20 relative">
                 <div className="text-3xl font-dm font-medium tracking-tight">
                     <p>{title}</p>
                 </div>

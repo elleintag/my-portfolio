@@ -7,21 +7,21 @@ const Footer = () => {
             <div className="text-yellow-light font-dm font-regular tracking-tight space-y-20">
                 <div className="text-center text-xl space-x-20">
                     <a
-                        className="hover:text-blue-default"
+                        className="hover:text-[#CBD6F2]"
                         href="https://www.linkedin.com/in/joelle-lintag/"
                         target="_blank"
                     >
                         LinkedIn
                     </a>
                     <a
-                        className="hover:text-blue-default"
+                        className="hover:text-[#CBD6F2]"
                         href="https://github.com/elleintag"
                         target="_blank"
                     >
                         GitHub
                     </a>
                     <a
-                        className="hover:text-blue-default"
+                        className="hover:text-[#CBD6F2]"
                         href="https://drive.google.com/file/d/1RvUcIJqw17sApz7PrGrt0rjkVfGYUVxJ/view?usp=sharing"
                         target="_blank"
                     >

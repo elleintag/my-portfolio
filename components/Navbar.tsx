@@ -11,36 +11,36 @@ const Navbar = () => {
                         <div className="flex justify-left">
                             <Link href="/">
                                 <Home
-                                    className="transform scale-75 hover:fill-blue-default"
+                                    className="transform scale-75 hover:fill-[#CBD6F2]"
                                     fill="#FFFBEE"
                                     src="/assets/joelle.svg"
                                 />
                             </Link>
                         </div>
-                        <div className="flex justify-center space-x-5">
+                        <div className="flex justify-center self-center space-x-5">
                             <Link
-                                className="hover:text-blue-default"
+                                className="hover:text-[#CBD6F2]"
                                 href="/projects"
                             >
                                 Projects
                             </Link>
                             <Link
-                                className="hover:text-blue-default"
+                                className="hover:text-[#CBD6F2]"
                                 href="/profile"
                             >
                                 Profile
                             </Link>
                             <a
-                                className="hover:text-blue-default"
+                                className="hover:text-[#CBD6F2]"
                                 href="https://drive.google.com/file/d/1RvUcIJqw17sApz7PrGrt0rjkVfGYUVxJ/view?usp=sharing"
                                 target="_blank"
                             >
                                 Resume
                             </a>
                         </div>
-                        <div className="flex justify-end">
+                        <div className="flex justify-end self-center">
                             <a
-                                className="hover:text-blue-default"
+                                className="hover:text-[#CBD6F2]"
                                 href="https://www.linkedin.com/in/joelle-lintag/"
                                 target="_blank"
                                 rel="noopener noreferrer"

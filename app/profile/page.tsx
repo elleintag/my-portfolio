@@ -5,7 +5,7 @@ import Image from "next/image";
 const profile = () => {
     return (
         <div className="pt-36 max-w-[1400px] mx-auto">
-            <div className="px-36 flex items-center justify-normal relative">
+            <div className="px-36 flex flex-row space-x-14 relative">
                 <div className="text-left space-y-5">
                     <p className="text-8xl text-blue-dark font-dm font-bold tracking-tighter">
                         Hi! I'm Joelle!
@@ -27,36 +27,41 @@ const profile = () => {
                             is easy to get to me – let’s get in touch!
                         </p>
                     </div>
-
-                    <Image
-                        alt="Clover1"
-                        src={"../assets/svgs/clover.svg"}
-                        height={600}
-                        width={600}
-                        className="absolute -top-56 -right-32 -z-10 rotate-[33deg]"
-                        unoptimized
-                    />
-                    <Image
-                        alt="Yippee"
-                        src={"../assets/svgs/yippee-yellow.svg"}
-                        height={200}
-                        width={200}
-                        className="absolute -top-36 left-168 -z-10 rotate-[-132deg]"
-                        unoptimized
-                    />
-                    <Image
-                        alt="Squiggle"
-                        src={"../assets/svgs/squiggle-green.svg"}
-                        height={600}
-                        width={600}
-                        className="absolute -top-96 -left-20 -z-10"
+                </div>
+                <div className='self-center'>
+                    <Image 
+                        alt="Profile Photo"
+                        src={"/assets/headshot.png"}
+                        height={605}
+                        width={605}
+                        className="rounded-full"
                         unoptimized
                     />
                 </div>
-                <img
-                    className="rounded-full transform scale-75 w-1/3 h-1/3"
-                    src="/assets/headshot.png"
-                ></img>
+                <Image
+                alt="Clover1"
+                src={"../assets/svgs/clover.svg"}
+                height={600}
+                width={600}
+                className="absolute -top-52 -right-44 -z-10 rotate-[33deg]"
+                unoptimized
+                />
+                <Image
+                    alt="Yippee"
+                    src={"../assets/svgs/yippee-yellow.svg"}
+                    height={200}
+                    width={200}
+                    className="absolute -top-24 left-168 -z-10 rotate-[-132deg]"
+                    unoptimized
+                />
+                <Image
+                    alt="Squiggle"
+                    src={"../assets/svgs/squiggle-green.svg"}
+                    height={650}
+                    width={650}
+                    className="absolute -top-96 -left-36 -z-10"
+                    unoptimized
+                />
             </div>
 
             <div className="px-12 py-16 flex flex-row justify-center gap-x-3 items-start">
@@ -78,7 +83,6 @@ const profile = () => {
                     width={1000}
                     height={1000}
                 />
-                {/* </div> */}
             </div>
 
             <div className="px-32 space-x-36 flex justify-normal">

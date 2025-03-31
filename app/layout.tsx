@@ -17,6 +17,9 @@ export default function RootLayout({
     return (
         <html lang="en" className="w-full overflow-x-hidden">
             <body>
+                <head>
+                    <link rel="icon" href="/assets/favicon.png" />
+                </head>
                 <Navbar />
                 <main>{children}</main>
                 <Footer />
