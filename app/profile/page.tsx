@@ -204,7 +204,7 @@ const profile = () => {
                         </p>
                         <div className="w-2/3">
                             <p className="text-2xl text-blue-default font-dm italic tracking-tight">
-                                I’m all about sharing the stories and
+                                I&apos;m all about sharing the stories and
                                 inspirations that got me here. Drop me a message
                                 below!
                             </p>
