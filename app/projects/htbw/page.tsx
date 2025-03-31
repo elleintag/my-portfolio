@@ -14,7 +14,7 @@ const htbw = () => {
         Description='Branding & Design Project'
         Label_1='Branding'
         Label_2='Social Media'
-        Collab="For Women in Science & Engineering - Queen's University Chapter"
+        Collab="For Women in Science & Engineering - Queen&apos;s University Chapter"
       />
         
       <Introduction
@@ -29,12 +29,12 @@ const htbw = () => {
         Goal_3='ADD ANOTHER GOAL'
       />
 
-      <Photos 
-        // img_1='/assets/bobbinlace/samplebook-1.png'
-        // img_2='/assets/bobbinlace/samplebook-2.png'
-        // img_3='/assets/bobbinlace/samplebook-3.png'
-        // Caption='Scans of sample book curated with all prototypes throughout research.'/>
-      />
+      {/* <Photos 
+        img_1='/assets/bobbinlace/samplebook-1.png'
+        img_2='/assets/bobbinlace/samplebook-2.png'
+        img_3='/assets/bobbinlace/samplebook-3.png'
+        Caption='Scans of sample book curated with all prototypes throughout research.'/>
+      /> */}
 
       <div className='py-24'>
         <Photos
@@ -52,12 +52,12 @@ const htbw = () => {
       />
 
       <div className='py-24'>
-        <Photos 
+        {/* <Photos 
           // img_1='/assets/bobbinlace/showcase-1.png'
           // img_2='/assets/bobbinlace/showcase-2.png'
           // img_3='/assets/bobbinlace/showcase-3.png'
           // Caption='Creation process of Living Lace Sample -- a bobbin lace potentiometer. Includes prototyping, pattern, and Arduino code for functionality.'/>
-        />
+        /> */}
       </div>
 
       <MoreFromMe
