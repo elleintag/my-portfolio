@@ -18,7 +18,7 @@ const wise = () => {
         />
         
       <Introduction
-        Intro='Women in Science and Engineering (WiSE) was established at Queen’s University with a simple mission in mind: to promote and advocate the involvement of females in STEM fields. We strive to bring each other up, work together towards the same goals, and inspire the next generation of girls to do the same. With a professional and consistent design, the WiSE rebranding project brings a brand-new way to showcase our mission, and to extend our reach to even more women and girls, just like us.'
+        Intro='Women in Science and Engineering (WiSE) was established at Queen&apos;s University with a simple mission in mind: to promote and advocate the involvement of females in STEM fields. We strive to bring each other up, work together towards the same goals, and inspire the next generation of girls to do the same. With a professional and consistent design, the WiSE rebranding project brings a brand-new way to showcase our mission, and to extend our reach to even more women and girls, just like us.'
         // img='/assets/bobbinlace/bobbinlace-intro.png'
         // Caption='Samples of bobbin lace from early in research.'/>
         />
@@ -26,7 +26,7 @@ const wise = () => {
       <Goals 
         Goal_1='Develop a simple and accessible brand kit that can be easily understood by any member of the team.'
         Goal_2='Ensure that each piece of media, marketing, and merchandise is cohesive and united by the WiSE brand.'
-        Goal_3='Create a new logo that fits both the professional and modern focus of the team’s initiatives and events.'
+        Goal_3='Create a new logo that fits both the professional and modern focus of the team&apos;s initiatives and events.'
       />
 
       <Photos 

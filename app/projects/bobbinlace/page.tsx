@@ -3,7 +3,7 @@ import Goals from "@/components/project-page/Goals";
 import Header from "@/components/project-page/Header";
 import Introduction from "@/components/project-page/Introduction";
 import Photos from "@/components/project-page/Photos";
-import ProjectIconSm from "@/components/ProjectIconSm";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -59,28 +59,33 @@ const bobbinlace = () => {
                     </p>
                     <p className="text-lg text-blue-text font-dm font-light tracking-tight">
                         Within our research, we found that e-textiles were
-                        regularly seen as touch sensors, where a user’s swipe or
+                        regularly seen as touch sensors, where a user&apos;s swipe or
                         scrunch of a fabric would turn on a light. Using this as
                         a basis, we each developed a sensor that would best suit
                         the foundational bobbin lace methods we had researched
                         and sampled together. These sensors, which included a
                         potentiometer, stretch sensor, and swipe sensor, were
                         all connected and controlled together in a single
-                        children’s tapestry for simple user interaction.
+                        children&apos;s tapestry for simple user interaction.
                     </p>
                     <p className="text-xl text-blue-default font-dm font-normal italic tracking-tight leading-tight py-5">
                         This final sensor was presented as a submission at the
-                        Queen’s University Creative Computing Showcase and was
+                        Queen&apos;s University Creative Computing Showcase and was
                         recognized with the award for Best Research Project!
                     </p>
                 </div>
                 <div className="w-2/5 h-full flex flex-col items-start">
-                    <img
-                        className="w-full h-full"
-                        src="/assets/bobbinlace/award.png"
-                    />
+                    <div className="w-full h-full">
+                        <Image 
+                            alt="Interactive Bobbin Lace Showcase"
+                            src='/assets/bobbinlace/award.png'
+                            height={500}
+                            width={500}
+                            unoptimized
+                        />
+                    </div>
                     <p className="text-lg text-blue-text font-dm italic tracking-tight leading-tight py-3">
-                        Awarding for Interactive Bobbin Lace at the Queen’s
+                        Awarding for Interactive Bobbin Lace at the Queen&apos;s
                         University Creative Computing Showcase
                     </p>
                 </div>
@@ -104,7 +109,7 @@ const bobbinlace = () => {
                 </p>
                 <p className="text-xl text-center text-blue-dark font-dm tracking-tight">
                     The research we contributed for Interactive Bobbin Lace has
-                    been internationally recognized at TEI’25 in Bordeaux,
+                    been internationally recognized at TEI&apos;25 in Bordeaux,
                     France, and has been scientifically published as:
                     Interactive Bobbin Lace: Metal Thread History, Interviews
                     with Lace Makers, and Material Explorations with E-Textiles!

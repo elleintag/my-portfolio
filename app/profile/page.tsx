@@ -8,7 +8,7 @@ const profile = () => {
             <div className="px-36 flex flex-row space-x-14 relative">
                 <div className="text-left space-y-5">
                     <p className="text-8xl text-blue-dark font-dm font-bold tracking-tighter">
-                        Hi! I'm Joelle!
+                        Hi! I&apos;m Joelle!
                     </p>
                     <p className="text-2xl text-blue-default font-dm italic tracking-tight">
                         A passionate self-taught designer with a data analysis
@@ -21,10 +21,10 @@ const profile = () => {
                             and how I can share it with the world.
                         </p>
                         <p className="text-xl text-blue-dark font-dm tracking-tight">
-                            If you can’t find me in front of my desk making
+                            If you can&apos;t find me in front of my desk making
                             something new, I am either hosting a live embroidery
                             pop-up or thrifting a new wardrobe! But I promise it
-                            is easy to get to me – let’s get in touch!
+                            is easy to get to me – let&apos;s get in touch!
                         </p>
                     </div>
                 </div>

@@ -28,7 +28,7 @@ const LiteracyLagoon = () => {
       <Goals 
         Goal_1='Keep children captivated and focused on app activities and lessons without compromising their screen time.'
         Goal_2='Prioritize the importance of progress, and ensure that each child is able to learn at their own pace.'
-        Goal_3='Provide a space for parents to track their child’s progress and learn more about how they can support their child.'
+        Goal_3='Provide a space for parents to track their child&apos;s progress and learn more about how they can support their child.'
       />
 
       <div className='px-12 pb-12 space-y-5'>
@@ -69,7 +69,7 @@ const LiteracyLagoon = () => {
       </div>
 
       <Approach 
-        Approach='Our prototyping process began by developing the aquatic theme and sketching out an initial layout of the app’s workflow. We highlighted various elements, such as buttons, colour, and characters to ensure that children would have simple user interactions and instructions through the development of accurate user characterizations and scenarios. Each prototype, from pen and paper to our final design, had gone through several rounds of user testing and interviews, with feedback being implemented throughout the process.'
+        Approach='Our prototyping process began by developing the aquatic theme and sketching out an initial layout of the app&apos;s workflow. We highlighted various elements, such as buttons, colour, and characters to ensure that children would have simple user interactions and instructions through the development of accurate user characterizations and scenarios. Each prototype, from pen and paper to our final design, had gone through several rounds of user testing and interviews, with feedback being implemented throughout the process.'
         img='/assets/literacylagoon/testing.png'
         Caption='Caption about user testing'
       />

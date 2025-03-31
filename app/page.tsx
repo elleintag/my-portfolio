@@ -9,7 +9,7 @@ const home = () => {
             <div className="mx-auto max-w-[1400px]">
                 <div className="space-y-5 text-center pt-56 pb-36 relative">
                     <p className="text-8xl text-blue-text text-center font-dm font-bold tracking-tighter z-10">
-                        Hi! I'm Joelle!
+                        Hi! I&apos;m Joelle!
                     </p>
                     <div className="space-x-2 text-4xl text-blue-text text-center tracking-tight flex items-center justify-center">
                         <p className="font-ss font-light italic">A</p>
@@ -64,7 +64,7 @@ const home = () => {
                 <Featured />
                 <TextSide
                     headerText="All about design, data, and innovative solutions?"
-                    subText="I’d love to connect! I’m currently exploring exciting new roles and challenges."
+                    subText="I&apos;d love to connect! I&apos;m currently exploring exciting new roles and challenges."
                 />
             </div>
         </main>

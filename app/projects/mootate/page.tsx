@@ -20,14 +20,14 @@ const Mootate = () => {
       />
         
       <Introduction
-        Intro="Mootate is a logical, strategy-based 2D top-down game during an unusual day at the farm when the animals become violent and it's up to you, the farmer, to transform into different animals to avoid getting attacked and find the alarm to calm the animals down. Dangerous animals will only attack certain enemies in each round. You can keep track of each animal’s enemy in the legend on the screen. Don’t get attacked, and keep looking for the alarm before time runs out!."
+        Intro="Mootate is a logical, strategy-based 2D top-down game during an unusual day at the farm when the animals become violent and it's up to you, the farmer, to transform into different animals to avoid getting attacked and find the alarm to calm the animals down. Dangerous animals will only attack certain enemies in each round. You can keep track of each animal&apos;s enemy in the legend on the screen. Don&apos;t get attacked, and keep looking for the alarm before time runs out!."
         img='/assets/mootate/mootate.png'
         Caption=''
         />
       
       <Goals 
         Goal_1='Develop sprite movement, randomized spawning, and cooldown according to gameplay.'
-        Goal_2='Establish and maintain the game’s objective, graphics, and mechanics throughout the user’s entire experience.'
+        Goal_2='Establish and maintain the game&apos;s objective, graphics, and mechanics throughout the user&apos;s entire experience.'
         Goal_3='Ensure the game is accessible to a wide audience in both gameplay and availability.'
       />
 

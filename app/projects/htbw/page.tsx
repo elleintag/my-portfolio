@@ -18,7 +18,7 @@ const htbw = () => {
       />
         
       <Introduction
-        Intro='The How to be WiSE (HTBW) podcast is a proud communications initiative of the Queen’s University Women in Science and Engineering Chapter (WiSE). From interviews with top executives and young professionals to undergraduate students like us, each HTBW episode highlights the diversity and extraordinary female experience in STEM. The rebranding of HTBW is another extension of WiSE’s aim to advocate for women and girls in STEM spaces, and ensure their thoughts and voices are heard.'
+        Intro='The How to be WiSE (HTBW) podcast is a proud communications initiative of the Queen&apos;s University Women in Science and Engineering Chapter (WiSE). From interviews with top executives and young professionals to undergraduate students like us, each HTBW episode highlights the diversity and extraordinary female experience in STEM. The rebranding of HTBW is another extension of WiSE&apos;s aim to advocate for women and girls in STEM spaces, and ensure their thoughts and voices are heard.'
         // img='/assets/bobbinlace/bobbinlace-intro.png'
         // Caption='Samples of bobbin lace from early in research.'/>
         />
