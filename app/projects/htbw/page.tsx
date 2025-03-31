@@ -37,12 +37,12 @@ const htbw = () => {
       /> */}
 
       <div className='py-24'>
-        <Photos
+        {/* <Photos
           // img_1='/assets/bobbinlace/final-1.png'
           // img_2='/assets/bobbinlace/final-2.png'
           // img_3='/assets/bobbinlace/final-3.png'
           // Caption='Creation process of Living Lace Sample -- a bobbin lace potentiometer. Includes prototyping, pattern, and Arduino code for functionality.'/>
-        />
+        /> */}
       </div>
 
       <Approach 
