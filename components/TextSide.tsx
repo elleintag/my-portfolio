@@ -11,7 +11,7 @@ const TextSide = ({headerText='header text', subText='description text'}) => {
                 <p className='text-2xl text-blue-default font-dm italic'>{subText}</p>
               </div>
               <div className='py-5'>
-                <a className='bg-blue-dark border-2 border-solid border-blue-dark text-yellow-light hover:bg-yellow-bg hover:text-blue-dark text-2xl font-dg font-medium rounded-2xl px-8 py-2' href='https://www.linkedin.com/in/joelle-lintag/' target='_blank'>Let's Chat</a>
+                <a className='bg-blue-dark border-2 border-solid border-blue-dark text-yellow-light hover:bg-yellow-bg hover:text-blue-dark text-2xl font-dg font-medium rounded-2xl px-8 py-2' href='https://www.linkedin.com/in/joelle-lintag/' target='_blank'>Let&apos;s Chat</a>
               </div>
           </div>
           <Image
@@ -27,7 +27,7 @@ const TextSide = ({headerText='header text', subText='description text'}) => {
             src={"/assets/svgs/yippee-blue.svg"}
             height={160}
             width={160}
-            className="absolute translate-x-200 translate-y-12 -z-20 rotate-[10deg]"
+            className="absolute translate-x-200 translate-y-12 -z-20 rotate-[]"
             unoptimized
           />
         </div>

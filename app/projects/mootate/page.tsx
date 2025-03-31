@@ -16,11 +16,11 @@ const Mootate = () => {
         Description='2D Game Development'
         Label_1='Development'
         Label_2='Game Design'
-        Collab="Game Design at Queen's University"
+        Collab="Game Design at Queen&apos;s University"
       />
         
       <Introduction
-        Intro="Mootate is a logical, strategy-based 2D top-down game during an unusual day at the farm when the animals become violent and it's up to you, the farmer, to transform into different animals to avoid getting attacked and find the alarm to calm the animals down. Dangerous animals will only attack certain enemies in each round. You can keep track of each animal&apos;s enemy in the legend on the screen. Don&apos;t get attacked, and keep looking for the alarm before time runs out!."
+        Intro="Mootate is a logical, strategy-based 2D top-down game during an unusual day at the farm when the animals become violent and it&apos;s up to you, the farmer, to transform into different animals to avoid getting attacked and find the alarm to calm the animals down. Dangerous animals will only attack certain enemies in each round. You can keep track of each animal&apos;s enemy in the legend on the screen. Don&apos;t get attacked, and keep looking for the alarm before time runs out!."
         img='/assets/mootate/mootate.png'
         Caption=''
         />
@@ -62,7 +62,7 @@ const Mootate = () => {
               Before the graphics of the game was established, our team focused on developing randomized sprite movement based on a random path selection. Map boundaries had to be established to prevent both players and sprites from moving off the playable map. Our team settled on a cozy, yet challenging theme for the game that is carried throughout the game art and interface graphics. Each stage of development included user testing and feedback, resulting in various changes within gameplay and strategy development that continuously improved the game even into its final version.
             </p>
             <p className="text-xl text-blue-default font-dm font-normal italic tracking-tight leading-tight py-5">
-                Mootate was also previously featured at the Queen's University Creative Computing Showcase!
+                Mootate was also previously featured at the Queen&apos;s University Creative Computing Showcase!
             </p>
         </div>
         <div className="w-2/5 h-full flex flex-col items-start">

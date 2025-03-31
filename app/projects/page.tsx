@@ -119,7 +119,7 @@ const projects = () => {
                     />
                     <div className="pt-90 px-6 bg-yellow-default text-yellow-dark rounded-2xl z-20 relative">
                         <div className="text-3xl font-dm font-medium tracking-tight">
-                            <p>We're working on it!</p>
+                            <p>We&apos;re working on it!</p>
                         </div>
                         <div className="text-xl font-dm font-medium italic tracking-tight">
                             <p>More to come soon</p>

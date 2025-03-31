@@ -28,7 +28,7 @@ const profile = () => {
                         </p>
                     </div>
                 </div>
-                <div className='self-center'>
+                <div className="self-center">
                     <Image 
                         alt="Profile Photo"
                         src={"/assets/headshot.png"}
@@ -108,7 +108,7 @@ const profile = () => {
                     </div>
                     <div className="">
                         <p className="text-3xl text-left text-blue-dark font-dm font-semibold tracking-tight">
-                            iStudio Lab at Queen's University
+                            iStudio Lab at Queen&apos;s University
                         </p>
                         <p className="text-xl text-left text-blue-default font-dm italic tracking-tight">
                             Undergraduate Research Student
@@ -125,7 +125,7 @@ const profile = () => {
                     </div>
                     <div className="">
                         <p className="text-3xl text-left text-blue-dark font-dm font-semibold tracking-tight">
-                            Queen's Women in Computing
+                            Queen&apos;s Women in Computing
                         </p>
                         <p className="text-xl text-left text-blue-default font-dm italic tracking-tight">
                             Marketing Coordinator & Graphic Designer
@@ -139,7 +139,7 @@ const profile = () => {
                         </p>
                         <div className="">
                             <p className="text-3xl text-left text-blue-dark font-dm font-semibold tracking-tight">
-                                Queen's University
+                                Queen&apos;s University
                             </p>
                             <p className="text-xl text-left text-blue-dark font-dm italic tracking-tight">
                                 Bachelor of Computing with Honours
@@ -215,7 +215,7 @@ const profile = () => {
                                 href="https://www.linkedin.com/in/joelle-lintag/"
                                 target="_blank"
                             >
-                                Let's Chat
+                                Let&apos;s Chat
                             </a>
                         </div>
                     </div>

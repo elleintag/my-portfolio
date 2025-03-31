@@ -64,7 +64,7 @@ const Featured = () => {
             </div>
             <div className="text-center text-blue-text font-dm tracking-tighter py-16">
                 <p className="text-3xl font-semibold">
-                    Don't worry, there's more!
+                    Don&apos;t worry, there&apos;s more!
                 </p>
                 <div className="mt-7">
                     <Link
