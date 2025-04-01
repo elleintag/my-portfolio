@@ -103,7 +103,7 @@ const LiteracyLagoon = () => {
 
       <MoreFromMe
         project_1="Interactive Bobbin Lace"
-        sub_1="Undergraduate Capston Research"
+        sub_1="Undergraduate Capstone Research"
         page_1="/projects/bobbinlace"
         project_2="Mootate"
         sub_2="2D Game Development"

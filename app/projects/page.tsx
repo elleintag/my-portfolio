@@ -134,7 +134,7 @@ const projects = () => {
                 </p>
                 <div>
                     <Link
-                        className="text-xl bg-yellow-bg border-2 border-solid border-yellow-bg text-blue-default hover:bg-blue-default hover:text-yellow-bg font-dm font-normal rounded-2xl px-8 py-3"
+                        className="text-xl bg-yellow-bg border-2 border-solid border-yellow-bg text-blue-default hover:bg-blue-default hover:text-yellow-bg font-dm font-normal tracking-tight rounded-2xl px-8 py-3"
                         href="/profile"
                     >
                         About Me

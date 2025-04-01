@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import ProjectLabel from "./ProjectLabel";
 import Image from "next/image";
 
 const ProjectIcon = ({
@@ -31,7 +30,7 @@ const ProjectIcon = ({
             className={`max-w-screen-xl rounded-2xl ${text} ${
                 cover_image && "bg-green"
             } bg-cover bg-center relative overflow-hidden`}
-            style={{ backgroundImage: cover_image ? "" : `url(${img_path})` }}
+            style={{ backgroundImage: cover_image ? "" : `url(${img_path})`, backgroundSize: cover_image ? 'cover' : '100%', backgroundPosition: 'center' }}
             href={page}
         >
             {cover_image && (
@@ -40,11 +39,11 @@ const ProjectIcon = ({
                     alt={title}
                     width={600}
                     height={600}
-                    className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+                    className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transition-transform duration-500 ease-in-out hover:scale-105"
                 />
             )}
             {!cover_image && (
-                <div className="w-full h-full opacity-50 bg-blue-default z-20 absolute" />
+                <div className="w-full h-full opacity-50 bg-blue-default z-20 absolute transition-transform duration-500 ease-in-out hover:bg-scale-105"></div>
             )}
             <div className="mt-90 p-6 z-20 relative">
                 <div className="text-3xl font-dm font-medium tracking-tight">

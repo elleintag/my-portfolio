@@ -4,8 +4,8 @@ import Image from 'next/image'
 const TextSide = ({headerText='header text', subText='description text'}) => {
   return (
     <div className='px-24 w-9/12 mt-20 mb-36 space-y-10'>
-        <div className='flex items-center'>
-          <div className='text-blue-dark text-left space-y-3 relative'>
+        <div className='flex items-center relative'>
+          <div className='text-blue-dark text-left space-y-3'>
               <p className='text-5xl font-dm font-semibold tracking-tighter'>{headerText}</p>
               <div className='w-2/3'>
                 <p className='text-2xl text-blue-default font-dm italic'>{subText}</p>
@@ -27,7 +27,7 @@ const TextSide = ({headerText='header text', subText='description text'}) => {
             src={"/assets/svgs/yippee-blue.svg"}
             height={160}
             width={160}
-            className="absolute right-16 translate-y-12 -z-20 rotate-[]"
+            className="absolute -right-96 translate-y-12 -z-20 rotate-[]"
             unoptimized
           />
         </div>
