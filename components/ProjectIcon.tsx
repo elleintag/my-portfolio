@@ -1,4 +1,6 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -25,13 +27,16 @@ const ProjectIcon = ({
     textlabel: string;
     cover_image?: boolean;
 }) => {
+    const [hovered, setHovered] = useState(false);
+
     return (
         <Link
             className={`max-w-screen-xl rounded-2xl ${text} ${
                 cover_image && "bg-green"
-            } bg-cover bg-center relative overflow-hidden`}
-            style={{ backgroundImage: cover_image ? "" : `url(${img_path})`, backgroundSize: cover_image ? 'cover' : '100%', backgroundPosition: 'center' }}
+            } relative overflow-hidden`}
             href={page}
+            onMouseEnter={() => setHovered(true)}
+            onMouseLeave={() => setHovered(false)}
         >
             {cover_image && (
                 <Image
@@ -39,11 +44,25 @@ const ProjectIcon = ({
                     alt={title}
                     width={600}
                     height={600}
-                    className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transition-transform duration-500 ease-in-out hover:scale-105"
+                    className={`absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transition-transform duration-500 ease-in-out ${
+                        hovered ? "scale-105" : ""
+                    }`}
                 />
             )}
             {!cover_image && (
-                <div className="w-full h-full opacity-50 bg-blue-default z-20 absolute transition-transform duration-500 ease-in-out hover:bg-scale-105"></div>
+                <>
+                    <Image
+                        src={img_path}
+                        alt={title}
+                        layout="fill"
+                        objectFit="cover"
+                        style={{
+                            scale: hovered ? 1.05 : 1,
+                            transition: "scale 500ms ease-in-out",
+                        }}
+                    />
+                    <div className="w-full h-full opacity-50 bg-blue-default z-20 absolute transition-transform duration-500 ease-in-out hover:bg-scale-105" />
+                </>
             )}
             <div className="mt-90 p-6 z-20 relative">
                 <div className="text-3xl font-dm font-medium tracking-tight">
@@ -67,7 +86,6 @@ const ProjectIcon = ({
                             {label_2}
                         </p>
                     )}
-
                 </div>
             </div>
         </Link>
