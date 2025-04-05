@@ -4,11 +4,11 @@ import Image from "next/image"
 const Header = ({Title='Title', Description='Description', Label_1='Label', Label_2='Label', Collab='Collaboration'}) => {
   return (
     <div className='mx-auto max-w-[1400px]'>
-        <div className="text-center space-y-3 mt-108 relative">
+        <div className="text-center space-y-3 mt-96 relative">
             <p className="text-6xl pt-12 text-blue-dark font-dm font-semibold tracking-tighter">
                 {Title}
             </p>
-            <p className="text-2xl px-72 pb-10 text-blue-default font-dm italic tracking-tight">
+            <p className="text-2xl px-72 pb-8 text-blue-default font-dm italic tracking-tight">
                 {Description}
             </p>
             <Image
@@ -53,7 +53,7 @@ const Header = ({Title='Title', Description='Description', Label_1='Label', Labe
             />
         </div>
 
-        <div className='px-12 pb-10 flex justify-between items-center'>
+        <div className='px-12 pb-7 flex justify-between items-center'>
             <div className='flex space-x-3'>
                 <p className='text-xl border-solid bg-green border-green text-yellow-bg font-dm font-normal tracking-tight rounded-xl px-6 py-1'>{Label_1}</p>
                 <p className='text-xl border-solid bg-green border-green text-yellow-bg font-dm font-normal tracking-tight rounded-xl px-6 py-1'>{Label_2}</p>

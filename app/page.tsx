@@ -12,11 +12,11 @@ const home = () => {
                         Hi! I&apos;m Joelle!
                     </p>
                     <div className="space-x-2 text-4xl text-blue-text text-center tracking-tight flex items-center justify-center">
-                        <p className="font-ss font-light italic">A</p>
+                        <p className="font-dm font-medium italic">A</p>
                         <p className="font-dm font-medium">designer /</p>
-                        <p className="font-ss font-light italic">analyzer </p>
+                        <p className="font-dm font-medium italic">analyzer </p>
                         <p className="font-dm font-medium">/ developer</p>
-                        <p className="font-ss font-light italic">
+                        <p className="font-dm font-medium italic">
                             of all sorts
                         </p>
                     </div>

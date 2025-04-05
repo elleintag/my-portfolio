@@ -6,7 +6,7 @@ import Image from "next/image";
 const projects = () => {
     return (
         <div className="mx-auto max-w-[1400px]">
-            <div className="text-center space-y-3 mt-108 relative">
+            <div className="text-center space-y-3 mt-96 relative">
                 <p className="text-6xl pt-12 text-blue-dark font-dm font-semibold tracking-tighter">
                     Selected Projects
                 </p>
@@ -95,7 +95,7 @@ const projects = () => {
                         textlabel="text-green"
                         cover_image
                     />
-                    <ProjectIcon
+                    {/* <ProjectIcon
                         title="Women in Science & Engineering"
                         sub="Branding & Design"
                         page="/projects/wise"
@@ -105,8 +105,8 @@ const projects = () => {
                         text="text-yellow-light"
                         bglabel="bg-yellow-light"
                         textlabel="text-blue-default"
-                    />
-                    <ProjectIcon
+                    /> */}
+                    {/* <ProjectIcon
                         title="How to be WiSE Podcast"
                         sub="Branding & Marketing"
                         page="/projects/htbw"
@@ -116,8 +116,8 @@ const projects = () => {
                         text="text-yellow-light"
                         bglabel="bg-yellow-light"
                         textlabel="text-blue-default"
-                    />
-                    <div className="pt-90 px-6 bg-yellow-default text-yellow-dark rounded-2xl z-20 relative">
+                    /> */}
+                    <div className="pt-90 pb-12 px-6 bg-yellow-default text-yellow-dark rounded-2xl z-20 relative">
                         <div className="text-3xl font-dm font-medium tracking-tight">
                             <p>We&apos;re working on it!</p>
                         </div>

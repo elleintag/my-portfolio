@@ -19,20 +19,20 @@ const Navbar = () => {
                         </div>
                         <div className="flex justify-center self-center space-x-5">
                             <Link
-                                className="hover:text-[#CBD6F2]"
+                                className="hover:text-[#CBD6F2] hover:underline"
                                 href="/projects"
                             >
                                 Projects
                             </Link>
                             <Link
-                                className="hover:text-[#CBD6F2]"
+                                className="hover:text-[#CBD6F2] hover:underline"
                                 href="/profile"
                             >
                                 Profile
                             </Link>
                             <a
-                                className="hover:text-[#CBD6F2]"
-                                href="https://drive.google.com/file/d/1RvUcIJqw17sApz7PrGrt0rjkVfGYUVxJ/view?usp=sharing"
+                                className="hover:text-[#CBD6F2] hover:underline"
+                                href="https://drive.google.com/file/d/1nyfjwfOBMKHCib3UB7CU3-u0ed0Ppegx/view?usp=drive_link"
                                 target="_blank"
                             >
                                 Resume
@@ -40,7 +40,7 @@ const Navbar = () => {
                         </div>
                         <div className="flex justify-end self-center">
                             <a
-                                className="hover:text-[#CBD6F2]"
+                                className="hover:text-[#CBD6F2] hover:underline"
                                 href="https://www.linkedin.com/in/joelle-lintag/"
                                 target="_blank"
                                 rel="noopener noreferrer"

@@ -50,7 +50,15 @@ const Featured = () => {
                     textlabel="text-green"
                     cover_image
                 />
-                <ProjectIcon
+                <div className="pt-90 pb-12 px-6 bg-yellow-default text-yellow-dark rounded-2xl z-20 relative">
+                    <div className="text-3xl font-dm font-medium tracking-tight">
+                        <p>We&apos;re working on it!</p>
+                    </div>
+                    <div className="text-2xl font-dm font-medium italic tracking-tight">
+                        <p>More to come soon</p>
+                    </div>
+                </div>
+                {/* <ProjectIcon
                     title="Women in Science & Engineering"
                     sub="Branding & Design"
                     page="/projects/wise"
@@ -60,18 +68,18 @@ const Featured = () => {
                     text="text-yellow-light"
                     bglabel="bg-yellow-light"
                     textlabel="text-blue-default"
-                />
+                /> */}
             </div>
-            <div className="text-center text-blue-text font-dm tracking-tighter py-16">
+            <div className="text-center text-blue-dark font-dm tracking-tighter py-16">
                 <p className="text-3xl font-semibold">
                     Don&apos;t worry, there&apos;s more!
                 </p>
                 <div className="mt-7">
                     <Link
-                        className="border-solid border-2 border-blue-text text-blue-text hover:bg-blue-text hover:text-yellow-bg text-xl font-medium rounded-2xl px-8 py-2"
+                        className="border-solid border-2 border-blue-dark text-blue-dark hover:bg-blue-dark hover:text-yellow-bg text-xl font-medium rounded-2xl px-8 py-2"
                         href="/projects"
                     >
-                        See More
+                        All Projects
                     </Link>
                 </div>
             </div>
