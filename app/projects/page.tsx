@@ -58,7 +58,6 @@ const projects = () => {
             </div>
 
             <div className="py-8">
-                {/* TODO: ADD IMAGE PATHS (img_path="assets/blah blah.png"*/}
                 <div className="grid grid-cols-2 gap-5">
                     <ProjectIcon
                         title="Interactive Bobbin Lace"
@@ -76,7 +75,7 @@ const projects = () => {
                         sub="UX/UI App Design"
                         page="/projects/literacylagoon"
                         label_1="Research"
-                        label_2="Design System"
+                        label_2="UX/UI"
                         img_path="/assets/covers/literacylagoon-cover.png"
                         text="text-yellow-light"
                         bglabel="bg-yellow-light"
@@ -95,49 +94,31 @@ const projects = () => {
                         textlabel="text-green"
                         cover_image
                     />
-                    {/* <ProjectIcon
+                    <ProjectIcon
                         title="Women in Science & Engineering"
                         sub="Branding & Design"
                         page="/projects/wise"
-                        label_1="Graphic Design"
-                        label_2="Social Media"
-                        img_path="/assets/covers/wise-cover.jpg"
+                        label_1="Marketing"
+                        label_2="Design"
+                        img_path="/assets/covers/wise-cover.png"
                         text="text-yellow-light"
                         bglabel="bg-yellow-light"
                         textlabel="text-blue-default"
-                    /> */}
-                    {/* <ProjectIcon
-                        title="How to be WiSE Podcast"
-                        sub="Branding & Marketing"
-                        page="/projects/htbw"
-                        label_1="Design"
-                        label_2="Social Media"
-                        img_path="/assets/covers/htbw-cover.png"
-                        text="text-yellow-light"
-                        bglabel="bg-yellow-light"
-                        textlabel="text-blue-default"
-                    /> */}
-                    <div className="pt-90 pb-12 px-6 bg-yellow-default text-yellow-dark rounded-2xl z-20 relative">
-                        <div className="text-3xl font-dm font-medium tracking-tight">
-                            <p>We&apos;re working on it!</p>
-                        </div>
-                        <div className="text-xl font-dm font-medium italic tracking-tight">
-                            <p>More to come soon</p>
-                        </div>
-                    </div>
+                    />
+
                 </div>
             </div>
 
             <div className="text-center pt-24 pb-32 space-y-7 relative">
                 <p className="text-3xl text-yellow-bg font-dm font-medium tracking-tight">
-                    Find out what got me here!
+                    Even more projects!
                 </p>
                 <div>
                     <Link
-                        className="text-xl bg-yellow-bg border-2 border-solid border-yellow-bg text-blue-default hover:bg-blue-default hover:text-yellow-bg font-dm font-normal tracking-tight rounded-2xl px-8 py-3"
-                        href="/profile"
+                        className="text-lg bg-yellow-bg border-2 border-solid border-yellow-bg text-blue-default hover:bg-blue-default hover:text-yellow-bg font-dm font-normal tracking-tight rounded-2xl px-8 py-2"
+                        href="/projects/playground"
                     >
-                        About Me
+                        Playground
                     </Link>
                 </div>
                 <Image

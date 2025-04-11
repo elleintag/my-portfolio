@@ -11,13 +11,8 @@ const home = () => {
                     <p className="text-8xl text-blue-text text-center font-dm font-bold tracking-tighter z-10">
                         Hi! I&apos;m Joelle!
                     </p>
-                    <div className="space-x-2 text-4xl text-blue-text text-center tracking-tight flex items-center justify-center">
-                        <p className="font-dm font-medium italic">A</p>
-                        <p className="font-dm font-medium">designer /</p>
-                        <p className="font-dm font-medium italic">analyzer </p>
-                        <p className="font-dm font-medium">/ developer</p>
-                        <p className="font-dm font-medium italic">
-                            of all sorts
+                    <div className="space-x-2 text-4xl text-blue-text text-center font-dm font-medium tracking-tight flex items-center justify-center">
+                        <p>A <span className="text-blue-default italic">developer</span> / <span className="text-blue-default italic">analyzer</span> / <span className="text-blue-default italic">designer</span> of all sorts
                         </p>
                     </div>
                     <Image
@@ -61,7 +56,7 @@ const home = () => {
                         unoptimized
                     />
                 </div>
-                <Featured />
+                <Featured /> 
                 <TextSide
                     headerText="All about design, data, and innovative solutions?"
                     subText="I&apos;d love to connect! I&apos;m currently exploring exciting new roles and challenges."

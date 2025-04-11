@@ -17,7 +17,7 @@ const Introduction = ({
             </div>
             <div className="w-2/5 h-full space-y-3">
                 <img className="w-full h-full" src={img}></img>
-                <p className="text-xl text-[#4A4A4A] font-dm font-light italic tracking-tight px-2 py-3">
+                <p className="text-xl text-blue-dark font-dm font-normal italic tracking-tight leading-tight px-2 py-3">
                     {Caption}
                 </p>
             </div>

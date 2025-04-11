@@ -38,7 +38,7 @@ const Mootate = () => {
         alt_1='UI Assets'
         alt_2='UI Assets'
         alt_3='UI Assets'
-        Caption='Caption about UI assets'
+        Caption='Various Mootate assets including character designs, map layout, and player instruction screeen.'
       />
 
       <div className='py-12'>
@@ -49,7 +49,7 @@ const Mootate = () => {
           alt_1='Gameplay'
           alt_2='Gameplay'
           alt_3='Gameplay'
-          Caption='Caption about gameplay'
+          Caption='Gameplay capture of game initialization, animal attack, and winning screen.'
         />
       </div>
 
@@ -76,7 +76,7 @@ const Mootate = () => {
               />
             </div>
             <p className="text-lg text-blue-text font-dm italic tracking-tight leading-tight py-3">
-                Caption about presenting
+                Mootate being presented at the Queen's University Creative Computing Showcase.
             </p>
         </div>
       </div>

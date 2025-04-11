@@ -15,14 +15,14 @@ const LiteracyLagoon = () => {
         Title='Literacy Lagoon'
         Description='UX/UI App Design'
         Label_1='Research'
-        Label_2='UX/UI Design'
+        Label_2='UX/UI'
         Collab="Human Computer Interaction at Queen's University"
       />
         
       <Introduction
         Intro='Research indicates that one of the best solutions to the challenge of teaching literacy to primary school children is the use of systematic phonic-based learning. However, with the advancement of technology and online learning, children are quickly adapting to digital interfaces and tend to memorize words rather than use traditional decoding strategies. Literacy Lagoon was conceptualized to provide a space for classroom learning techniques to be implemented through an online platform with minimal parental guidance. This project is a simple prototype that outlines the differences and similarities in design for children, and their parents.'
         img='/assets/literacylagoon/literacylagoon.png'
-        // Caption='Samples of bobbin lace from early in research.'
+        Caption=''
         />
       
       <Goals 
@@ -42,7 +42,7 @@ const LiteracyLagoon = () => {
           />   
         </div>
         <div className='items-start'>
-            <p className='text-lg text-blue-text font-dm font-light italic tracking-tight'>Caption about proposal diagram</p>
+            <p className='text-lg text-blue-text font-dm font-light italic tracking-tight'>Preliminary flowchart of app sequence after researching into various literacy teaching methods for young children.</p>
         </div>   
       </div>
 
@@ -53,7 +53,7 @@ const LiteracyLagoon = () => {
         alt_1='Low Fidelity Design'
         alt_2='Low Fidelity Design'
         alt_3='Low Fidelity Design'
-        Caption='Scans of sample book curated with all prototypes throughout research.'
+        Caption='Low fideltiy app design for children&apos;s play screens. Scanned from paper and pencil designs.'
       />
 
       <div className='py-12'>
@@ -64,14 +64,14 @@ const LiteracyLagoon = () => {
           alt_1='High Fidelity Design'
           alt_2='High Fidelity Design'
           alt_3='High Fidelity Design'
-          Caption='Scans of sample book curated with all prototypes throughout research.'
+          Caption='High fidelity app design developed after completing user research and testing with initial low and mid fidelity designs.'
         />
       </div>
 
       <Approach 
         Approach='Our prototyping process began by developing the aquatic theme and sketching out an initial layout of the app&apos;s workflow. We highlighted various elements, such as buttons, colour, and characters to ensure that children would have simple user interactions and instructions through the development of accurate user characterizations and scenarios. Each prototype, from pen and paper to our final design, had gone through several rounds of user testing and interviews, with feedback being implemented throughout the process.'
         img='/assets/literacylagoon/testing.png'
-        Caption='Caption about user testing'
+        Caption='User testing for high fidelity app design for final improvements.'
       />
 
       <div className='pt-12'>
@@ -82,7 +82,7 @@ const LiteracyLagoon = () => {
           alt_1='High Fidelity Design for Parents'
           alt_2='High Fidelity Design for Parents'
           alt_3='High Fidelity Design for Parents'
-          Caption='Scans of sample book curated with all prototypes throughout research.'
+          Caption='Additional screens from high fidelity app design for parents.'
         />
       </div>
 

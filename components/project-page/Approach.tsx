@@ -22,7 +22,7 @@ const Approach = ({Approach='Approach Text', img='/assets/', alt='alt-text', Cap
                     unoptimized
                 />
               </div>
-                <p className="text-xl text-[#4A4A4A] font-dm font-light italic tracking-tight px-2 py-3">
+                <p className="text-xl text-blue-dark font-dm font-light italic tracking-tight px-2 py-3">
                     {Caption}
                 </p>
             </div>

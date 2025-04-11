@@ -26,6 +26,12 @@ const Navbar = () => {
                             </Link>
                             <Link
                                 className="hover:text-[#CBD6F2] hover:underline"
+                                href="/projects/playground"
+                            >
+                                Playground
+                            </Link>
+                            <Link
+                                className="hover:text-[#CBD6F2] hover:underline"
                                 href="/profile"
                             >
                                 Profile

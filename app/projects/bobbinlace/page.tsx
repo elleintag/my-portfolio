@@ -48,7 +48,7 @@ const bobbinlace = () => {
                     alt_2="Final Potentiometer"
                     img_3="/assets/bobbinlace/final-3.png"
                     alt_3="Potentiometer Testing"
-                    Caption="Creation process of Living Lace Sample -- a bobbin lace potentiometer. Includes prototyping, pattern, and Arduino code for functionality."
+                    Caption="Creation process of Living Lace Sample: a bobbin lace potentiometer. Includes prototyping, pattern, and Arduino code for functionality."
                 />
             </div>
 
@@ -57,7 +57,7 @@ const bobbinlace = () => {
                     <p className="text-6xl text-blue-dark font-dm font-semibold tracking-tight">
                         Approach
                     </p>
-                    <p className="text-lg text-blue-text font-dm font-light tracking-tight">
+                    <p className="text-xl text-blue-text font-dm font-light tracking-tight">
                         Within our research, we found that e-textiles were
                         regularly seen as touch sensors, where a user&apos;s swipe or
                         scrunch of a fabric would turn on a light. Using this as
