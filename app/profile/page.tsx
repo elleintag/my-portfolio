@@ -63,7 +63,7 @@ const profile = () => {
                             <p className="text-xl text-blue-dark font-dm font-normal tracking-tight">With my bachelor&apos;s degree in computing, I was able to develop a whole bunch of different things! From a compiler to front-end web development, I can say I&apos;ve coded in a ton of different languages and pick up new ones whenever I get the chance.</p>
                         </div>
                         <div className="w-1/3 space-y-2">
-                            <p className="text-xl text-blue-default font-dm font-semibold tracking-tight">Everything I've Coded In</p>
+                            <p className="text-xl text-blue-default font-dm font-semibold tracking-tight">Everything I&apos;ve Coded In</p>
                             <div className="grid grid-cols-4 gap-2">
                                 <p className='text-sm text-center border-solid bg-green border-green text-yellow-bg font-dm font-normal tracking-tight rounded-xl px-6 py-1'>HTML5</p>
                                 <p className='text-sm text-center border-solid bg-green border-green text-yellow-bg font-dm font-normal tracking-tight rounded-xl px-6 py-1'>CSS3</p>

@@ -11,7 +11,7 @@ const playground = () => {
                     Playground
                 </p>
                 <p className="text-2xl px-72 pb-10 text-blue-default font-dm italic tracking-tight">
-                    A collection of some of my favourite design projects I've worked on.
+                    A collection of some of my favourite design projects I&apos;ve worked on.
                 </p>
                 <Image
                     alt="Clover1"

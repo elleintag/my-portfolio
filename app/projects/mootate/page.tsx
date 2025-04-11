@@ -76,7 +76,7 @@ const Mootate = () => {
               />
             </div>
             <p className="text-lg text-blue-text font-dm italic tracking-tight leading-tight py-3">
-                Mootate being presented at the Queen's University Creative Computing Showcase.
+                Mootate being presented at the Queen&apos;s University Creative Computing Showcase.
             </p>
         </div>
       </div>
